@@ -1,6 +1,8 @@
 body {
   background-color: rgb(4, 34, 4);
   color: white;
+  background-image: url(../Group2Project/solar\ system.jpg);
+  background-repeat: no-repeat;
 }
 
 h1 {
