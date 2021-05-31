@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Bungee Shade";
+}
+
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+
+h1 {
+  color: white;
+  font-family: "Bungee Shade";
+  text-align: center;
+  font-size: 800%;
+}
+
+body {
+  background-image: url(https://static.wikia.nocookie.net/mightythor/images/3/36/Earth.jpg/revision/latest/scale-to-width-down/800?cb=20210325020442);
+}
+
+div.container {
+  --hue: var(--hue-neutral);
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 800px;
+  max-width: 80%;
+  background-color: gainsboro;
+  margin-left: 23%;
+  margin-bottom: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+#question {
+  font-size: 500%;
+}
+
+body.correct {
+  --hue: var(--hue-correct);
+}
+
+body.wrong {
+  --hue: var(--hue-wrong);
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: rgba(0, 47, 177, 0.979);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  font-size: 200%;
+}
+
+.btn:hover {
+  border-color: rgba(0, 47, 177, 0.979);
+}
+
+.btn.correct {
+  --hue: var(--hue-correct);
+  color: black;
+}
+
+.btn.wrong {
+  --hue: var(--hue-wrong);
+}
+
+.start-btn,
+.next-btn {
+  font-size: 100px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
