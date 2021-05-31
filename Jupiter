@@ -8,8 +8,8 @@
       href="https://fonts.googleapis.com/css?family=Bungee Shade"
       rel="stylesheet"
     />
-    <link href="styles.css" rel="stylesheet" />
-    <script defer src="script.js"></script>
+    <link href="Jupiter.css" rel="stylesheet" />
+    <script defer src="Jupiter.js"></script>
     <title>Jupiter</title>
   </head>
   <body>
