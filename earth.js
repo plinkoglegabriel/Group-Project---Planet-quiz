@@ -77,11 +77,10 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'How many moons does Saturn have?',
+    question: 'The Earth is the third closest planet to the sun?',
     answers: [
-      { text: '4', correct: false },
-      { text: '23', correct: false },
-      { text: '82', correct: true }
+      { text: 'True', correct: true },
+      { text: 'False', correct: false }
     ]
   },
 ]
