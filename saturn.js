@@ -55,9 +55,9 @@ function selectAnswer(e) {
     setStatusClass(button, button.dataset.correct)
   })
   if (question = correct) {
-    location.replace('file:///Users/pollylinkogle-gabriel/Desktop/CGF%20-%20Web%20Development/CFGG_wb/correct.html')
+    location.replace('./correct.html')
   } else {
-    location.replace('file:///Users/pollylinkogle-gabriel/Desktop/CGF%20-%20Web%20Development/CFGG_wb/incorrect.html')
+    location.replace('./incorrect.html')
   }
 }
 
