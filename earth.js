@@ -55,9 +55,9 @@ function selectAnswer(e) {
     setStatusClass(button, button.dataset.correct)
   })
   if (question = correct) {
-    location.replace('file:///Users/pollylinkogle-gabriel/Desktop/CGF%20-%20Web%20Development/CFGG_wb/correct.html')
+    location.replace('./correct.html')
   } else {
-    location.replace('file:///Users/pollylinkogle-gabriel/Desktop/CGF%20-%20Web%20Development/CFGG_wb/incorrect.html')
+    location.replace('./incorrect.html')
   }
 }
 
@@ -77,10 +77,11 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Is the Earth the third closest planet to the sun?',
+    question: 'How many moons does Saturn have?',
     answers: [
-      { text: 'True', correct: false },
-      { text: 'False', correct: true }
+      { text: '4', correct: false },
+      { text: '23', correct: false },
+      { text: '82', correct: true }
     ]
   },
 ]
