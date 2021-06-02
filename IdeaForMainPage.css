@@ -1,0 +1,123 @@
+body {
+  color: white;
+  background-image: url(https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202102/MIT-Dwarf-Halo-01-press_0.jpg?itok=d7PtSGnA);
+}
+
+h1 {
+  font-family: "Bungee Shade";
+  color: #fff;
+  text-align: center;
+  font-size: 150px;
+}
+html,
+body {
+  height: 100%;
+}
+video.sun {
+  width: 800px;
+  height: 900px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: -350px 0 0 -600px;
+}
+
+img.Jupiter {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 80%;
+  left: 49%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+img.Saturn {
+  width: 325px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 85%;
+  left: 64.7%;
+}
+
+img.Earth {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 85%;
+  left: 29.5%;
+}
+
+img.mars {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  position: absolute;
+  top: 89%;
+  left: 40%;
+}
+
+img.mercury {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+  left: 11%;
+}
+
+img.venus {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+  left: 21%;
+}
+img.uranus {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+  left: 82%;
+}
+img.neptune {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+  left: 91%;
+}
+img.click {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+p.click {
+  font-size: 32px;
+  font-family: "Bungee Shade";
+  position: absolute;
+  top: 65%;
+  left: 15%;
+}
