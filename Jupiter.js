@@ -55,9 +55,9 @@ function selectAnswer(e) {
     setStatusClass(button, button.dataset.correct)
   })
   if (question = correct) {
-    location.href = "https://www.google.com/search?q=you+got+it+right&safe=strict&rlz=1C5CHFA_enGB817GB817&ei=0VW1YIvON4G4kwWAg4Mw&oq=you+got+it+right&gs_lcp=Cgdnd3Mtd2l6EAMyBQguEJMCMgIILjICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgkIABBDEEYQ-QE6BAgAEEM6CAguEJECEJMCOgUIABCRAjoECC4QQzoECAAQCjoFCC4QkQJQzZkBWOnQAWDg0wFoAnACeACAAbUBiAHrEJIBBDEwLjmYAQCgAQGqAQdnd3Mtd2l6sAEAwAEB&sclient=gws-wiz&ved=0ahUKEwjL-oim7_TwAhUB3KQKHYDBAAYQ4dUDCA4&uact=5"
+    location.replace('./correct.html')
   } else {
-    location.href = "https://www.google.com/search?q=you+got+it+wrong&safe=strict&rlz=1C5CHFA_enGB817GB817&ei=lFW1YPu2Do_TsAepkLTYBg&oq=you+got+it+wrong&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjoHCAAQRxCwA1DWBFiyF2CQHmgAcAN4AIAByAGIAb4MkgEFMy44LjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=gws-wiz&ved=0ahUKEwj70NSI7_TwAhWPKewKHSkIDWsQ4dUDCA4&uact=5"
+    location.replace('./incorrect.html')
   }
 }
 
