@@ -77,7 +77,7 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'The Earth is the third closest planet to the sun?',
+    question: 'The Earth is the third closest planet to the sun.',
     answers: [
       { text: 'True', correct: true },
       { text: 'False', correct: false }
