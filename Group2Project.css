@@ -5,31 +5,25 @@ body {
   background-repeat: no-repeat;
 }
 
-h1 {
+.title {
   font-family: "Bungee Shade";
   color: #fff;
   margin-bottom: 2%;
   text-align: center;
-  font-size: 750%;
+  font-size: 300%;
 }
 
-img.main {
-  width: 100%;
-  height: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-img.click {
+
+.img-click {
   width: 90px;
   height: 85px;
-  position: absolute;
-  top: 110%;
-  padding: 5%;
+  top: 100%;
+  left: 10%;
   color: rgb(59, 99, 104);
 }
-h2 {
+
+.text {
+  font-family: "Chango";
   position: absolute;
   top: 110%;
   left: 10%;
@@ -55,7 +49,7 @@ input.b {
 input.c {
   position: absolute;
   top: 94%;
-  left: 20%;
+  left: 23%;
   background-color: rgb(0, 33, 218);
   color: rgb(7, 170, 7);
   font-weight: bold;
@@ -63,7 +57,7 @@ input.c {
 input.d {
   position: absolute;
   top: 92%;
-  left: 23%;
+  left: 30%;
   background-color: rgb(196, 65, 4);
   color: rgb(253, 253, 253);
   font-weight: bold;
@@ -71,7 +65,7 @@ input.d {
 input.e {
   position: absolute;
   top: 94%;
-  left: 40%;
+  left: 43%;
   background-color: rgb(235, 142, 4);
   color: black;
   font-weight: bold;
@@ -79,7 +73,7 @@ input.e {
 input.f {
   position: absolute;
   top: 89%;
-  left: 57.5%;
+  left: 70%;
   background-color: rgba(134, 100, 48, 0.788);
   color: white;
   font-weight: bold;
@@ -87,7 +81,7 @@ input.f {
 input.g {
   position: absolute;
   top: 83%;
-  left: 70%;
+  left: 80%;
   background-color: rgb(190, 190, 190);
   color: rgb(17, 16, 16);
   font-weight: bold;
@@ -95,7 +89,7 @@ input.g {
 input.h {
   position: absolute;
   top: 74%;
-  left: 80%;
+  left: 90%;
   background-color: rgb(63, 103, 214);
   color: white;
   font-weight: bold;

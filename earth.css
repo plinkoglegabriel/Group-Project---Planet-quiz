@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(4, 34, 4);
+    color: white;
+}
+
+.header {
+    font-family: "Bungee Shade";
+}
+
+.question {
+    font-family: "Chango";
+}
+
+.answer {
+    font-family: "Chango";
+}
