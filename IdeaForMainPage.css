@@ -2,6 +2,62 @@ body {
   color: white;
   background-image: url(https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202102/MIT-Dwarf-Halo-01-press_0.jpg?itok=d7PtSGnA);
 }
+nav {
+  font-family: "Chango";
+  color: #f4eb49;
+  display: block;
+  padding: 8px;
+  background-color: #1c0c4f;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #f4eb49;
+}
+a:hover {
+  color:#fff;
+}
+
+.dropbtn {
+  background-color: #3e8e41;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1c0c4f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:#f4eb49;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:#3e8e41}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 h1 {
   font-family: "Bungee Shade";
@@ -9,6 +65,7 @@ h1 {
   text-align: center;
   font-size: 150px;
 }
+
 html,
 body {
   height: 100%;

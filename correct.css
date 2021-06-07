@@ -1,7 +1,17 @@
 body {
   background-image: url(https://raw.githubusercontent.com/plinkoglegabriel/Group2Project/main/rocket.gif);
   font-family: "Bungee Shade";
-  color: #fff;
+}
+.correct {
+  color: #03fc39;
+}
+
+.incorrect {
+  color: red;
+}
+a {
+  text-decoration: none;
+  color: #f4eb49;
 }
 
 h1 {

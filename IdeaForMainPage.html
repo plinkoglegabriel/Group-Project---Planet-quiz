@@ -6,6 +6,8 @@
       href="https://fonts.googleapis.com/css?family=Bungee Shade"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,9 +17,15 @@
   <body>
     <header>
       <nav>
-        <a>Home </a>
-        <a>| Planets </a>
-        <a>| Contact Us</a>
+        <div class="dropdown">
+           <a class="dropbtn">| Planets </a>
+          <div class="dropdown-content">
+            <a href="./earth.html">Earth</a>
+            <a href="./Jupiter.html">Jupiter</a>
+            <a href="./Saturn.html">Saturn</a> 
+          </div>
+        </div>
+            <a href="./IdeaForMainPage.html">| Home </a>
       </nav>
       <h1>The Solar System</h1>
     </header>
