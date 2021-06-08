@@ -2,6 +2,15 @@ body {
   background-image: url(https://raw.githubusercontent.com/plinkoglegabriel/Group2Project/main/rocket.gif);
   font-family: "Bungee Shade";
 }
+
+nav {
+  font-family: "Chango";
+  color: #f4eb49;
+  display: block;
+  padding: 8px;
+  background-color: #1c0c4f;
+}
+
 .correct {
   color: #03fc39;
 }
