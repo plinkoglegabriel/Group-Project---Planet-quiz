@@ -109,12 +109,14 @@ nav {
 a {
   text-decoration: none;
   color: #f4eb49;
+  font-family: "Chango";
 }
 a:hover {
   color: #fff;
 }
 
 .dropbtn {
+  font-family: "Chango";
   background-color: #3e8e41;
   padding: 16px;
   font-size: 16px;
@@ -123,6 +125,7 @@ a:hover {
 }
 
 .dropdown {
+  font-family: "Chango";
   position: relative;
   display: inline-block;
 }
